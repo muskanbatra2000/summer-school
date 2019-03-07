@@ -1,16 +1,17 @@
-
-  class Test
+ 
+       class Test
 {
     private:
-        
-        float data2;  
+        int data1;
+        float data5; 
 
     public:  
-        } 
+        void function1()
+        {   data1 = 5;  } 
 
-        float function2()
+        float function5()
         { 
-            data2 = 3.5;
-            return data2;
+            data5 = 3.5;
+            return data5;
         }
    };
