@@ -1,4 +1,3 @@
-
 #include<iostream.h>
 #include<stdio.h>
 #include<conio.h>
@@ -10,8 +9,8 @@ void main()
 	char choice, ch;
 	do
 	{
+		cout<<"1.Addition\n";
 		
-		cout<<"2.Subtraction\n";
 		cout<<"3.Multiplication\n";
 		cout<<"4.Division\n";
 		cout<<"5.Exit\n\n";
@@ -19,12 +18,12 @@ void main()
 		cin>>choice;
 		switch(choice)
 		{
-		
-			case '2' : cout<<"Enter two number : ";
+			case '1' : cout<<"Enter two number : ";
 				cin>>a>>b;
-				res=a-b;
+				res=a+b;
 				cout<<"Result = "<<res;
 				break;
+			
 			case '3' : cout<<"Enter two number : ";
 				cin>>a>>b;
 				res=a*b;
