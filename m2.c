@@ -17,13 +17,9 @@ cin>>opt;
 
 
 //switch statement
-switch(opt)
-{
+switch
 
-case 2:cout<<"\nEnter room number: ";
-cin>>rno;
-room.searchRoom(rno);
-break;
+
 case 3:
 //nothing to do
 break;
